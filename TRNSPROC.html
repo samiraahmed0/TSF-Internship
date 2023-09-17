@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Send Money Process</title>
+    </head>
+    <body>
+        <link rel="stylesheet" href="stylesheet1.css" />
+        
+<header >
+    <h1 id="one"><img src="https://cdn-icons-png.flaticon.com/512/4590/4590204.png" class="img-fluid pt-2" width="60px" height="60px"> Transaction Process</h1>
+    <button  id="two" > <a href="try.html" alt="Home">Home</a></button> 
+    <button  id="two" > <a href="TransMon.html" alt="transfer money">Transfer Money</a></button> 
+  </header>
+  <h2>Transaction</h2>
+  <table>
+
+    <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Balance</th>
+          </tr>
+    </thead>
+    <tbody>
+          <tr>
+            <td>Samira</td>
+            <td>samira@gmail.com</td>
+            <td>10000</td>
+          </tr>
+    </tbody>
+    </table>
+    </br>
+    
+    <div class="form-container">
+    <form>
+        <label for="to" > Send to:</label></br>
+        <select name="select">
+            <option value="v0">Select</option>
+            <option value="v1">Maged</option>
+            <option value="v2">Nahed</option>
+            <option value="v3">Karam</option>
+            <option value="v4">Salma</option>
+            <option value="v5">Karim</option>
+            <option value="v6">Noha</option>
+            <option value="v7">Mai</option>
+            <option value="v8">Basem</option>
+            <option value="v9">Laila</option>
+        </select></br></br>
+
+        <label for="amount">Amount:</label></br>
+        <input type="text" id="amount" name="amount"> </br></br>
+        <button type="submit" id="confirm">Confirm</button>
+
+    </form>
+    </div>
+    <script>var sendmoney = document.getElementById ("confirm");
+        sendmoney.addEventListener('click', function onClick()
+        {
+            alert("Process Successfully Done");
+        }
+        )
+    </script>
+    </body>
+</html>
