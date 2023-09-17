@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background-color: rgb(231, 231, 243);
+  }
+  
+  /* Style the header */
+header, h1{
+    display:flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack:start;
+    justify-content:left;
+    gap: 2rem;
+    padding-inline: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 4rem;
+    background-color: #b400a5;
+    width:auto;
+}
+
+#one {
+    width:65%;
+    color:white;
+    font-family: 'arial', Courier, monospace;
+}
+
+#two {
+	border:none;
+	border-radius: 8px;
+	padding: 10px;
+	background:rgb(177, 177, 177); 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 24px;
+	transition: 0.5s;
+    text-align: center;
+    align-content: end;
+}
+button:hover{
+    background-color: rgb(223, 217, 217);
+    color:aqua;
+}
+
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+}
+div{
+    width:80%;
+    background-color:#fac5f6;
+    background-size: cover;
+    display:flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack:center;
+    justify-content:left;
+    gap: 2rem;
+    padding-inline: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 30rem;
+    width:auto;
+}
+
+div p {
+    width:60%;
+    font-family: sans-serif;
+    text-decoration:solid;
+    font-size: 50px;
+    display:block;
+}
+div img{
+width:50%
+}
+#start{
+    width: 150px;
+    height:40px;
+    justify-content:end;
+
+}
+footer{
+    text-align: center;
+}
+table{
+    border: 3px solid #838;
+    background-color: rgb(223, 211, 211);
+    table-layout: fixed;
+    width:75%;
+    height:100%;
+    /*border-collapse:collapse;*/
+    text-align: center;
+    size:100%;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th{
+    border: 1px solid #838;
+    padding:15px;
+    word-spacing: normal;
+}
+h2, h3{
+    text-align:center ;
+    color: rgb(1, 1, 168);
+}
+caption{
+    border: 3px solid #838;
+    color: rgb(119, 1, 80);
+}
+td:hover {background-color: rgb(162, 0, 236);}
